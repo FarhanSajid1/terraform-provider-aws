@@ -1,9 +1,6 @@
 ## 3.54.0 (Unreleased)
 
 ENHANCEMENTS:
-* aws/resource_aws_eks_cluster: Update service_ipv4_cidr regex to support [secondary vpc cidr blocks](https://aws.amazon.com/about-aws/whats-new/2018/10/amazon-eks-now-supports-additional-vpc-cidr-blocks/) 
-
-ENHANCEMENTS:
 
 * data-source/aws_workspaces_directory: Add `workspace_access_properties.device_type_linux` attribute ([#20462](https://github.com/hashicorp/terraform-provider-aws/issues/20462))
 * resource/aws_athena_workgroup: Add `requester_pays_enabled` argument ([#20457](https://github.com/hashicorp/terraform-provider-aws/issues/20457))
